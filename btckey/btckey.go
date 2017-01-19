@@ -7,7 +7,7 @@ package btckey
 
 import (
   "bytes"
-  "github.com/google/go.crypto/ripemd160"
+  "golang.org/x/crypto/ripemd160"
   "crypto/sha256"
   "fmt"
   "io"
